@@ -1,0 +1,23 @@
+/* pages/VegetableShow/VegetableShow.wxss */
+.container{
+  background-color:#b5dab4;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner{
+  width:200rpx;
+  height:300rpx;
+}
+.kuai{
+  background-color: #b5dab4;
+  border: 5px solid #eef116;
+  
+  
+  height: 40vh;
+  
+  flex-direction: column;
+}

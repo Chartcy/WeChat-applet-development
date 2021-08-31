@@ -1,0 +1,22 @@
+
+<view class="container">
+  <view class="container1">
+    <navigator url="/pages/CanteenSearch/CanteenSearch" class="lianjie1">
+      <image class="banner" src="/images/hall.jpg"></image>
+      <text class="text">食堂</text>
+    </navigator>
+  </view>
+  <view class="container1">
+    <navigator url="/pages/MeatVegetable/MeatVegetable" class="lianjie1">
+      <image class="banner" src="/images/food.jpg"></image>
+      <text class="text">荤素菜</text>
+    </navigator>
+  </view>
+  <view class="container1">
+    <navigator url="/pages/IDSearch/IDSearch" class="lianjie1">
+      <image class="banner" src="/images/ID.jpg"></image>
+      <text class="text">用户ID</text>
+    </navigator>
+  </view>
+</view>
+

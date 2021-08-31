@@ -1,0 +1,35 @@
+<view class='page'>
+    <view class="choose1">
+      <radio-group class="radio-group" bindchange="cai">
+        <label class="radio" wx:for="{{items}}">
+            <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view class="choose2">
+      <radio-group class="radio-group" bindchange="shitang">
+        <label class="radio" wx:for="{{items2}}">
+            <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view class="text">
+        <textarea bindinput="input" placeholder="发表观点，不少于{{minContentLength}}字" maxlength='{{maxContentLength}}' show-confirm-bar='false' auto-height/>
+    </view>
+    <text class="text2">给这道菜打个分吧：</text>
+    <view class="right">
+      <view bindtap="starTap" data-index="{{index}}"  class="star" wx:for="{{userStars}}" wx:key="index">
+        <image src="{{item}}"></image>
+      </view>
+    </view>
+    <view class="image_content">
+        <view class='image' wx:for="{{img_url}}" wx:key="*this">
+            <image class="moment_img" src="{{item}}"></image>
+        </view>
+        <view class='image2' style='display:{{hideAdd?"none":"block"}}'>
+            <image bindtap="chooseimage" class="moment_img" src='../../images/add.png'></image>
+        </view> 
+    </view>
+    <button bindtap="send" >发布</button>
+</view>
+

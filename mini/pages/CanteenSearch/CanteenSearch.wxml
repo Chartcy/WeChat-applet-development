@@ -1,0 +1,11 @@
+<view class="container">
+  <navigator url="/pages/canteen1/canteen1" class="lianjie">
+    <text class="text">一食堂</text>
+  </navigator>
+  <navigator url="/pages/canteen2/canteen2" class="lianjie">
+    <text class="text">二食堂</text>
+  </navigator>
+  <navigator url="/pages/canteen3/canteen3" class="lianjie">
+    <text class="text">三食堂</text>
+  </navigator>
+</view>

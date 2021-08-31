@@ -1,0 +1,14 @@
+<!--pages/MeatShow/MeatShow.wxml-->
+<view class="container" style="white-space:pre-wrap">
+
+  <view wx:for="{{meatshow}}" wx:for-index="index" wx:for-item="item">
+  <view class="kuai">
+  {{index+1}} {{item.canteen}}
+  {{item.content}}  
+  <text> 好评度：{{item.hot_type+1}} 星  </text>
+  <image  class="banner"  src = "{{item.image[0]}}"></image>
+  </view>
+  </view>
+ 
+</view>
+

@@ -1,0 +1,79 @@
+/* pages/publish/publish.wxss */
+.page{
+ padding-left: 20rpx;
+ padding-right: 20rpx;
+ padding-top: 5rpx;
+}
+.image{
+ width:31%;
+ height: 100px;
+ padding: 2px
+}
+.moment_img{
+ width: 98px;
+ height: 98px;
+}
+.image_content{
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ margin-bottom: 20px
+}
+.choose1{
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.choose2{
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.text2{
+  margin-bottom: 0px;
+  font-size: 18px;
+}
+.right{
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.choosetext{
+  margin-top: 5px;
+}
+.text{
+ width: 100%;
+ margin-bottom: 200rpx;
+ font-size: 20px;
+ padding: 5px
+}
+.image{
+ width:31%;
+ height: 100px;
+ padding: 2px;
+}
+.moment_img{
+ width: 98px;
+ height: 98px;
+ padding: 2px
+}
+.image2{
+ width: 100%;
+ display: flex;
+ margin-bottom: 10px
+}
+.right .star {
+  float: left;
+  width: 54rpx;
+  height: 54rpx;
+  text-align: center;
+  line-height: 54rpx;
+  padding: 48rpx 2rpx;
+}
+.star image{
+  width: 48rpx;
+  height: 48rpx;
+}

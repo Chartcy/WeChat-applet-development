@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/postlist/postlist",
+    "pages/publish/publish",
+    "pages/CanteenSearch/CanteenSearch",
+    "pages/MeatVegetable/MeatVegetable",
+    "pages/search/search",
+    "pages/logs/logs",
+    "pages/postdetail/postdetail",
+    "pages/authorize/authorize",
+    "pages/IDSearch/IDSearch",
+    "pages/VegetableShow/VegetableShow",
+    "pages/MeatShow/MeatShow",
+    "pages/canteen1/canteen1",
+    "pages/canteen2/canteen2",
+    "pages/canteen3/canteen3"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#00bfff",
+    "navigationBarBackgroundColor": "#b5dab4"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "查找",
+        "pagePath": "pages/search/search",
+        "iconPath": "images/searchwhite.png",
+        "selectedIconPath": "images/searchgreen.png"
+      },
+      {
+        "text": "主界面",
+        "pagePath": "pages/postlist/postlist",
+        "iconPath": "images/mainwhite.png",
+        "selectedIconPath": "images/maingreen2.png"
+      },
+      {
+        "text": "发布",
+        "pagePath": "pages/publish/publish",
+        "iconPath": "images/publishblack.png",
+        "selectedIconPath": "images/publishgreen.png"
+      }
+    ]
+  },
+  "cloud": true,
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,19 @@
+.container{
+  background-color:#b5dab4;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.text{
+  font-size: 100rpx;
+  font-style: inherit;
+  font-weight: 900;
+}
+
+.lianjie{
+  margin-bottom: 150rpx;
+}

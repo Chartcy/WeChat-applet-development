@@ -1,0 +1,15 @@
+<!--pages/MeatVegetable/MeatVegetable.wxml-->
+<view class="container">
+  <navigator url="/pages/VegetableShow/VegetableShow">
+    <view class="container1">
+      <text>素菜</text>
+      <image class="sucai" src="/images/sucai.png"></image>
+    </view>
+  </navigator>
+  <navigator url="/pages/MeatShow/MeatShow">
+    <view class="container1">
+      <text>荤菜</text>
+      <image class="huncai" src="/images/huncai.png"></image>
+    </view>
+  </navigator>
+</view>

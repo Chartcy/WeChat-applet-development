@@ -1,0 +1,25 @@
+<view class="weui-search-bar">
+   <view class="weui-search-bar__form">
+    <view class="weui-search-bar__box">
+      <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+      <input type="text" class="weui-search-bar__input" placeholder="请输入查询内容" value="{{SearchData.value}}" bindinput='SearchInput' bindconfirm="SearchConfirm" />
+      <view class="weui-icon-clear" wx:if="{{SearchData.value.length > 0}}" bindtap="SearchClear">
+        <icon type="clear" size="14"></icon>
+      </view>
+    </view>
+  </view>
+    <view class="weui-search-bar__cancel-btn" bindtap="SearchConfirm">
+         <text wx:if="{{SearchData.value.length>0}}" data-key='search'>搜索</text>
+         <text wx:else data-key='back'>返回</text>
+    </view>
+</view>
+
+<view class="container">
+<image class="banner" src="/images/hall.jpg"></image>
+<text>食堂</text>
+<image class="banner" src="/images/food.jpg"></image>
+<text>荤菜or素菜</text>
+<image class="banner" src="/images/ID.jpg"></image>
+<text>用户ID</text>
+</view>
+

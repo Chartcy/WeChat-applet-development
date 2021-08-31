@@ -1,0 +1,24 @@
+.container{
+  background-color:#b5dab4;
+  height: 110vh;
+}
+.container1{
+  background-color:#b5dab4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+.lianjie1{
+  width: 70%;
+  height: 300rpx;
+}
+.banner{
+  width:200rpx;
+  height:200rpx;
+  border-radius: 80%;
+}
+.text{
+  text-align: center;
+}
